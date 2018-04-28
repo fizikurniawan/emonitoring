@@ -54,7 +54,7 @@ class AchievementsController < ApplicationController
 
 	private 
 	def achievement_params
-		params.permit(:name, :level, :achievement_date)
+		params.permit(:name, :level, :achievement_date, :student_id)
 	end
 
 	def set_achievement

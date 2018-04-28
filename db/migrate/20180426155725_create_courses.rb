@@ -4,6 +4,7 @@ class CreateCourses < ActiveRecord::Migration[5.1]
       t.string :name
       t.float :value
       t.string :predicate
+      t.integer :student_id
 
       t.timestamps
     end

@@ -4,6 +4,7 @@ class CreateOffenses < ActiveRecord::Migration[5.1]
       t.string :name
       t.integer :frequency
       t.text :note
+      t.integer :student_id
 
       t.timestamps
     end
