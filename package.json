@@ -1,0 +1,7 @@
+{
+  "name": "emonitoring",
+  "private": true,
+  "dependencies": {
+    "redux-saga": "^0.16.0"
+  }
+}
