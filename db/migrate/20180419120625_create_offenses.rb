@@ -8,5 +8,6 @@ class CreateOffenses < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+    add_index :offenses, :student_id
   end
 end

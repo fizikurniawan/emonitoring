@@ -8,5 +8,6 @@ class CreateAchievements < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+    add_index :achievements, :student_id
   end
 end
