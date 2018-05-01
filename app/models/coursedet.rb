@@ -1,3 +1,3 @@
 class Coursedet < ApplicationRecord
-	#has_many :courses
+	belongs_to :courses
 end
