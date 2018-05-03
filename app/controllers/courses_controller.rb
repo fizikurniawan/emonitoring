@@ -32,6 +32,9 @@ class CoursesController < ApplicationController
 
 	private
 	def course_params
+        if 1==1
+            predicate ='A'
+        end
 		params.permit(:name, :value, :predicate, :student_id)
 	end
 
